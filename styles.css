@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica-neue", Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.5;
+}
+a {
+    color: #1f00ac;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.title {
+    font-family: "affigereregular", Arial, sans-serif;
+    font-size: 33px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+}
+img {
+  height: 153px;
+}
+.bg-color-primary {
+    background: #1f00ac;
+    padding: 20px 0px;
+}
+.bg-color-secondary {
+    background: #fff;
+    padding: 20px;
+}
+.txt-white {
+    color: #fff;
+}
+.txt-blue {
+    color: #1f00ac;
+}
+.container {
+    max-width: 960px;
+    margin: 0px auto;
+}
+.grid-2t-1t {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 0 20px;
+    align-items: start;
+
+}
+.grid-1t-1t {
+    display: flex;
+    /* grid-template-columns: 1fr 1fr; */
+    /* gap: 20px; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.bloc-de-texte {
+    column-count: 2;
+    column-gap: 20px;
+    text-align: justify;
+}
+.card {
+    background: #1f00ac;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.card-white {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+.card-image {
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.card-border {
+    border: 2px solid #1f00ac;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #1f00ac08;
+}
+
+.box-1 {
+    
+    margin: 20px 20px 20px 20px;
+}
+.txt-blue {
+    color: #1f00ac;
+}
+
+.border {
+    padding: 20px 0px;
+}
+.border-2 {
+    padding: 15px;
+}
+
+.title:before {
+    content: '';
+    display: block;
+    width: 27px;
+    height: 27px;
+    background-color: #1f00ac;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.title-white:before {
+    background-color: #fff;
+}
+.sticky {
+    position: sticky;
+    top: 20px;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 60px 20px!important;
+}
